@@ -1,4 +1,4 @@
 # CozyCup-Cafe
 
-Bermejo, Theodore Ross
-Buala, Ivern Bryant
+- Bermejo, Theodore Ross
+- Buala, Ivern Bryant
