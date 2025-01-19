@@ -178,7 +178,7 @@ nav a:hover {
     display: inline-block;
 }
 
-/* ABOUT ME */
+/* ABOUT US */
 
 .about {
     padding: 100px 0;
@@ -197,6 +197,11 @@ nav a:hover {
     margin: 0 auto;
 }
 
+.mission {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* CONTACT */
 
 .contact {
@@ -213,8 +218,82 @@ nav a:hover {
 
 .contact p {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
+
+.contact-info {
+    padding-bottom: 30px;
+}
+
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form h3 {
+    font-size: 28px;
+    color: #4c3c32;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group input, .form-group textarea {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #c5b4aa;
+    border-radius: 15px;
+    background-color: #ffffff;
+    resize: none;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #7e685b;
+    outline: none;
+}
+
+
+.btn-modern {
+    padding: 12px 24px;
+    background-color: #4c3c32;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-modern:hover {
+    background-color: #7e685b;
+}
+
+.btn-modern:focus {
+    outline: none;
+}
+
+/* FIND US */
+
+.map {
+    font-size: 30px;
+    margin: 60px 0 40px 0;
+}
+
 
 /* FOOTER */
 
@@ -222,5 +301,10 @@ footer {
     background-color: #4c3c32;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0 40px 0;
+
+}
+
+.social-media-icons {
+    margin-top: 20px;
 }
