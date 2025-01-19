@@ -5,11 +5,10 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     background-color: #f8f2e0;
     color: #4c3c32;
 }
-
 
 
 header {
@@ -18,6 +17,8 @@ header {
     padding: 20px;
 }
 
+/* NAVIGATION */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,13 +26,15 @@ nav {
 }
 
 .logo img {
-    max-width: 100px;
+    padding-left: 15px;
+    max-width: 60px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    padding-right: 15px;
 }
 
 nav a {
@@ -45,6 +48,7 @@ nav a:hover {
     color: #7e685b;
 }
 
+/* HERO SECTION */
 
 .hero {
     position: relative;
@@ -84,7 +88,6 @@ nav a:hover {
 }
 
 
-
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
@@ -98,15 +101,84 @@ nav a:hover {
     background-color: #7e685b;
 }
 
+/* CAFE MENU */ 
+
 .menu {
-    padding: 100px 0;
+    padding: 100px 40px;
     text-align: center;
 }
 
 .menu h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #4c3c32;
 }
+
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-category {
+    flex: 1 1 45%;
+    margin-bottom: 50px;
+}
+
+.menu-category h3 {
+    font-size: 28px;
+    color: #4c3c32;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c5b4aa;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+.menu-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px solid #c5b4aa;
+}
+
+.menu-items li:last-child {
+    border-bottom: none;
+}
+
+.menu-items h4 {
+    font-size: 20px;
+    color: #4c3c32;
+    margin: 0;
+}
+
+.menu-items p {
+    font-size: 14px;
+    color: #816e62;
+    margin: 5px 0 0;
+}
+
+.menu-items span {
+    font-size: 18px;
+    color: #4c3c32;
+    font-weight: bold;
+
+    background-color: #ede4d6;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid #c5b4aa;
+    display: inline-block;
+}
+
+/* ABOUT ME */
 
 .about {
     padding: 100px 0;
@@ -125,6 +197,8 @@ nav a:hover {
     margin: 0 auto;
 }
 
+/* CONTACT */
+
 .contact {
     padding: 100px 0;
     text-align: center;
@@ -141,6 +215,8 @@ nav a:hover {
     font-size: 18px;
     margin-bottom: 40px;
 }
+
+/* FOOTER */
 
 footer {
     background-color: #4c3c32;
